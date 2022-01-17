@@ -1,0 +1,34 @@
+#root,
+:root {
+  background-color: #000000;
+  color: #ffffff;
+}
+.title {
+  padding: 20px;
+  display: grid;
+  justify-content: center;
+  margin: 10px;
+  h1 {
+    width: fit-content;
+    border-radius: 0.3rem;
+    padding: 10px;
+    font-size: 50px;
+    @media (max-width: 600px) {
+      font-size: 40px;
+    }
+  }
+}
+#preview,
+#editor {
+  height: auto;
+  min-height: 500px;
+  padding: 20px;
+  margin: 20px;
+  align-items: middle;
+}
+
+#preview img {
+  display: block;
+  max-width: 90%;
+  margin: 2rem auto;
+}
